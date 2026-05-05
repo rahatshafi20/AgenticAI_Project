@@ -1,0 +1,135 @@
+{
+  "title": "The Tale of Two Classfellows",
+  "genre": "Drama",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "location": "A high school classroom filled with rows of desks and a large blackboard at the front",
+      "time_of_day": "DAY",
+      "characters": [
+        "Alex Chen",
+        "Ryan Thompson"
+      ],
+      "action": "Alex is diligently taking notes while Ryan is sneaking a peek at his phone",
+      "dialogue": [
+        {
+          "speaker": "Alex Chen",
+          "line": "I don't get why Mr. Johnson is being so strict about the test, it's not like it's the final exam or anything",
+          "visual_cue": "Close-up, Alex looks up from his notes with a confused expression"
+        },
+        {
+          "speaker": "Ryan Thompson",
+          "line": "Don't worry about it, I've got it covered. I've been studying...alternative methods",
+          "visual_cue": "Wide shot, Ryan gives a sly grin and winks at Alex"
+        },
+        {
+          "speaker": "Alex Chen",
+          "line": "What do you mean? You're not planning on cheating, are you?",
+          "visual_cue": "Medium shot, Alex looks at Ryan with a mix of concern and disappointment"
+        },
+        {
+          "speaker": "Ryan Thompson",
+          "line": "Let's just say I have a few tricks up my sleeve. You should try it sometime, it's a lot less stressful than actually studying",
+          "visual_cue": "Over-the-shoulder shot, Ryan leans in and whispers to Alex"
+        }
+      ]
+    },
+    {
+      "scene_id": 2,
+      "location": "The same high school classroom, but this time it's filled with students taking a test",
+      "time_of_day": "DAY",
+      "characters": [
+        "Alex Chen",
+        "Ryan Thompson"
+      ],
+      "action": "Alex is focused on the test while Ryan is glancing at his phone and cheating",
+      "dialogue": [
+        {
+          "speaker": "Alex Chen",
+          "line": "Psst, Ryan, what are you doing? You're going to get caught!",
+          "visual_cue": "Close-up, Alex looks at Ryan with a worried expression"
+        },
+        {
+          "speaker": "Ryan Thompson",
+          "line": "Shh, just focus on your own test. I've got this under control",
+          "visual_cue": "Point-of-view shot, Ryan's phone displays the answers to the test questions"
+        },
+        {
+          "speaker": "Alex Chen",
+          "line": "But it's not right, cheating is not the answer. You're going to regret this",
+          "visual_cue": "Two-shot, Alex and Ryan exchange a tense glance"
+        },
+        {
+          "speaker": "Ryan Thompson",
+          "line": "We'll see about that. I'm going to ace this test and you're going to be left in the dust",
+          "visual_cue": "Low-angle shot, Ryan looks confident and smug"
+        }
+      ]
+    },
+    {
+      "scene_id": 3,
+      "location": "The high school auditorium, where the principal is announcing the test results",
+      "time_of_day": "DAY",
+      "characters": [
+        "Alex Chen",
+        "Ryan Thompson",
+        "Principal Smith"
+      ],
+      "action": "The principal announces the top scorers, with Ryan's name at the top of the list",
+      "dialogue": [
+        {
+          "speaker": "Principal Smith",
+          "line": "And the top scorer is...Ryan Thompson! Congratulations, Ryan",
+          "visual_cue": "Wide shot, the audience applauds as Ryan stands up and smiles"
+        },
+        {
+          "speaker": "Ryan Thompson",
+          "line": "Thanks, Principal Smith. I guess all my hard work paid off",
+          "visual_cue": "Close-up, Ryan gives a fake smile and waves to the audience"
+        },
+        {
+          "speaker": "Alex Chen",
+          "line": "Congratulations, Ryan. I'm happy for you",
+          "visual_cue": "Medium shot, Alex looks on with a mix of disappointment and skepticism"
+        },
+        {
+          "speaker": "Principal Smith",
+          "line": "And let's not forget our other top scorers, including Alex Chen, who came in second place",
+          "visual_cue": "Over-the-shoulder shot, Alex looks up with a hint of a smile"
+        }
+      ]
+    },
+    {
+      "scene_id": 4,
+      "location": "A college campus, where Alex and Ryan are now students",
+      "time_of_day": "DAY",
+      "characters": [
+        "Alex Chen",
+        "Ryan Thompson"
+      ],
+      "action": "Alex is walking across campus, looking happy and confident, while Ryan is sitting on a bench, looking defeated and dejected",
+      "dialogue": [
+        {
+          "speaker": "Alex Chen",
+          "line": "Hey, Ryan. I see you're not doing too well. What happened?",
+          "visual_cue": "Close-up, Alex looks at Ryan with concern and empathy"
+        },
+        {
+          "speaker": "Ryan Thompson",
+          "line": "I don't know, Alex. I just couldn't keep up with the coursework. I was so used to cheating and taking shortcuts that I never actually learned anything",
+          "visual_cue": "Medium shot, Ryan looks down, ashamed and regretful"
+        },
+        {
+          "speaker": "Alex Chen",
+          "line": "I told you, Ryan. Cheating might seem like an easy way out, but it's not worth it in the long run. Hard work and honesty always pay off",
+          "visual_cue": "Wide shot, Alex stands up and looks out at the campus, feeling proud and accomplished"
+        },
+        {
+          "speaker": "Ryan Thompson",
+          "line": "You were right, Alex. I'm sorry for not listening to you. Can you help me get back on track?",
+          "visual_cue": "Two-shot, Alex and Ryan share a moment of understanding and redemption"
+        }
+      ]
+    }
+  ]
+}

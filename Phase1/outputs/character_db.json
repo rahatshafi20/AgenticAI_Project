@@ -1,0 +1,45 @@
+{
+  "characters": [
+    {
+      "id": "char_001",
+      "name": "Principal Smith",
+      "role": "unknown",
+      "personality_traits": [],
+      "appearance": "a character named Principal Smith",
+      "clothing": "casual attire",
+      "image_generation_prompt": "portrait of Principal Smith, cinematic, detailed, photorealistic",
+      "image_path": "outputs/images/principal_smith.jpg",
+      "image_prompt": "portrait of Principal Smith, cinematic, detailed, photorealistic"
+    },
+    {
+      "id": "char_002",
+      "name": "Ryan Thompson",
+      "role": "antagonist",
+      "personality_traits": [
+        "sly",
+        "confident",
+        "regretful"
+      ],
+      "appearance": "a 17-year-old high school student, 5'10\" tall, short brown hair, blue eyes, fair skin, with a small scar above his left eyebrow",
+      "clothing": "casual high school attire, often wearing a black leather jacket, jeans, and sneakers",
+      "image_generation_prompt": "a photorealistic, portrait style image of a 17-year-old high school student, 5'10\" tall, short brown hair, blue eyes, fair skin, with a small scar above his left eyebrow, wearing a black leather jacket, jeans, and sneakers, sly and confident expression, with a hint of regret",
+      "image_path": "outputs/images/ryan_thompson.jpg",
+      "image_prompt": "a photorealistic, portrait style image of a 17-year-old high school student, 5'10\" tall, short brown hair, blue eyes, fair skin, with a small scar above his left eyebrow, wearing a black leather jacket, jeans, and sneakers, sly and confident expression, with a hint of regret"
+    },
+    {
+      "id": "char_003",
+      "name": "Alex Chen",
+      "role": "protagonist",
+      "personality_traits": [
+        "diligent",
+        "honest",
+        "concerned"
+      ],
+      "appearance": "17-year-old male, 5'9\" tall, short black hair, brown eyes, light brown skin, small nose and subtle facial features",
+      "clothing": "casual high school attire, including a white button-down shirt, dark blue jeans, and black sneakers",
+      "image_generation_prompt": "photorealistic, portrait style, 17-year-old male, 5'9\" tall, short black hair, brown eyes, light brown skin, small nose, subtle facial features, white button-down shirt, dark blue jeans, black sneakers, concerned expression, neutral background",
+      "image_path": "outputs/images/alex_chen.jpg",
+      "image_prompt": "photorealistic, portrait style, 17-year-old male, 5'9\" tall, short black hair, brown eyes, light brown skin, small nose, subtle facial features, white button-down shirt, dark blue jeans, black sneakers, concerned expression, neutral background"
+    }
+  ]
+}
