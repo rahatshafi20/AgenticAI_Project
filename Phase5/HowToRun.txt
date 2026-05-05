@@ -1,0 +1,11 @@
+# Test all 10+ intent types
+python phase5_main.py --test
+
+# Interactive edit mode
+python phase5_main.py
+
+# View version history
+python phase5_main.py --history
+
+# Revert to version 1
+python phase5_main.py --revert 1
