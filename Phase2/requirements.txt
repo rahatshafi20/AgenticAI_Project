@@ -1,0 +1,10 @@
+langgraph>=0.2.0
+langchain-core>=0.2.0
+gtts>=2.5.0
+opencv-python>=4.8.0
+moviepy==1.0.3
+Pillow>=10.0.0
+numpy>=1.24.0
+anthropic>=0.30.0
+imageio>=2.31.0
+imageio-ffmpeg>=0.4.9

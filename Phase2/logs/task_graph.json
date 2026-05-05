@@ -1,0 +1,58 @@
+{
+  "total_scenes": 4,
+  "execution_mode": "parallel",
+  "parallel_tasks": [
+    {
+      "scene_id": 1,
+      "audio_task": "voice_synth_scene_1",
+      "video_task": "video_gen_scene_1",
+      "face_task": "face_swap_scene_1",
+      "fusion_task": "lip_sync_scene_1",
+      "dependencies": {
+        "lip_sync": [
+          "voice_synth_scene_1",
+          "face_swap_scene_1"
+        ]
+      }
+    },
+    {
+      "scene_id": 2,
+      "audio_task": "voice_synth_scene_2",
+      "video_task": "video_gen_scene_2",
+      "face_task": "face_swap_scene_2",
+      "fusion_task": "lip_sync_scene_2",
+      "dependencies": {
+        "lip_sync": [
+          "voice_synth_scene_2",
+          "face_swap_scene_2"
+        ]
+      }
+    },
+    {
+      "scene_id": 3,
+      "audio_task": "voice_synth_scene_3",
+      "video_task": "video_gen_scene_3",
+      "face_task": "face_swap_scene_3",
+      "fusion_task": "lip_sync_scene_3",
+      "dependencies": {
+        "lip_sync": [
+          "voice_synth_scene_3",
+          "face_swap_scene_3"
+        ]
+      }
+    },
+    {
+      "scene_id": 4,
+      "audio_task": "voice_synth_scene_4",
+      "video_task": "video_gen_scene_4",
+      "face_task": "face_swap_scene_4",
+      "fusion_task": "lip_sync_scene_4",
+      "dependencies": {
+        "lip_sync": [
+          "voice_synth_scene_4",
+          "face_swap_scene_4"
+        ]
+      }
+    }
+  ]
+}

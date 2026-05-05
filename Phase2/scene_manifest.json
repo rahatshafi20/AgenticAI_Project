@@ -1,0 +1,135 @@
+{
+  "title": "The Tale of Two Classfellows",
+  "genre": "Drama",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "location": "A crowded university library",
+      "time_of_day": "DAY",
+      "characters": [
+        "Alex",
+        "Ryan"
+      ],
+      "action": "Alex studies diligently for an upcoming exam, while Ryan sneaks a peek at his phone for answers.",
+      "dialogue": [
+        {
+          "speaker": "Alex",
+          "line": "I'm telling you, Ryan, if we just focus on understanding the material, we'll do fine on this exam.",
+          "visual_cue": "Close-up on Alex's determined expression, with a soft focus on the books surrounding him"
+        },
+        {
+          "speaker": "Ryan",
+          "line": "You're so naive, Alex. Everyone cheats a little. It's just how the game is played.",
+          "visual_cue": "Over-the-shoulder shot of Ryan, with a sly grin spreading across his face"
+        },
+        {
+          "speaker": "Alex",
+          "line": "I'd rather earn my grades honestly than risk getting caught and expelled.",
+          "visual_cue": "Medium shot of Alex, with a firm stance and unwavering gaze"
+        },
+        {
+          "speaker": "Ryan",
+          "line": "Suit yourself, but I'm going to do whatever it takes to get ahead.",
+          "visual_cue": "Point-of-view shot from Alex's perspective, looking at Ryan with a mix of disappointment and concern"
+        }
+      ]
+    },
+    {
+      "scene_id": 2,
+      "location": "The university auditorium, where the exam results are being announced",
+      "time_of_day": "DAY",
+      "characters": [
+        "Alex",
+        "Ryan"
+      ],
+      "action": "The professor announces the top scorers, with Ryan's name being called first.",
+      "dialogue": [
+        {
+          "speaker": "Professor",
+          "line": "And the top scorer for this semester's exam is... Ryan!",
+          "visual_cue": "Wide shot of the auditorium, with the audience applauding and Ryan standing up, beaming with pride"
+        },
+        {
+          "speaker": "Ryan",
+          "line": "Ha! I told you, Alex, my methods work.",
+          "visual_cue": "Close-up on Ryan's triumphant smile, with a shallow depth of field to blur the background"
+        },
+        {
+          "speaker": "Alex",
+          "line": "Congratulations, Ryan. But I'm not giving up. I'll keep working hard and eventually, my efforts will pay off.",
+          "visual_cue": "Medium shot of Alex, with a resolute expression and a subtle nod of determination"
+        },
+        {
+          "speaker": "Ryan",
+          "line": "We'll see about that. I'm the one with the top grade, and I'm going to ride this wave of success all the way to the top.",
+          "visual_cue": "Over-the-shoulder shot of Ryan, with a confident swagger and a dismissive wave of his hand"
+        }
+      ]
+    },
+    {
+      "scene_id": 3,
+      "location": "A job interview at a prestigious company",
+      "time_of_day": "DAY",
+      "characters": [
+        "Alex",
+        "Ryan",
+        "Interviewer"
+      ],
+      "action": "The interviewer asks Ryan about his academic achievements, but discovers discrepancies in his records.",
+      "dialogue": [
+        {
+          "speaker": "Interviewer",
+          "line": "So, Ryan, I see you graduated at the top of your class. Can you tell me more about your academic achievements?",
+          "visual_cue": "Medium shot of the interviewer, with a neutral expression and a raised eyebrow"
+        },
+        {
+          "speaker": "Ryan",
+          "line": "Yes, of course. I worked extremely hard and... uh... earned my grades through dedication and perseverance.",
+          "visual_cue": "Close-up on Ryan's nervous face, with a sweaty brow and a fidgeting hand"
+        },
+        {
+          "speaker": "Interviewer",
+          "line": "I see. Well, our background check revealed some... inconsistencies in your academic record. Care to explain?",
+          "visual_cue": "Wide shot of the room, with Ryan's face falling and Alex looking on with a mix of sadness and vindication"
+        },
+        {
+          "speaker": "Ryan",
+          "line": "I... uh... I don't know what you're talking about.",
+          "visual_cue": "Point-of-view shot from the interviewer's perspective, looking at Ryan with a stern expression and a skeptical gaze"
+        }
+      ]
+    },
+    {
+      "scene_id": 4,
+      "location": "The same job interview, but now with Alex being interviewed",
+      "time_of_day": "DAY",
+      "characters": [
+        "Alex",
+        "Interviewer"
+      ],
+      "action": "The interviewer asks Alex about his academic achievements and is impressed by his honesty and integrity.",
+      "dialogue": [
+        {
+          "speaker": "Interviewer",
+          "line": "Alex, I must say, your academic record is impressive. You've consistently demonstrated hard work and dedication.",
+          "visual_cue": "Medium shot of the interviewer, with a warm smile and a nod of approval"
+        },
+        {
+          "speaker": "Alex",
+          "line": "Thank you, sir. I've always believed that honesty and integrity are just as important as grades and achievements.",
+          "visual_cue": "Close-up on Alex's sincere face, with a calm demeanor and a confident tone"
+        },
+        {
+          "speaker": "Interviewer",
+          "line": "I couldn't agree more, Alex. We're looking for individuals with strong character and a strong work ethic. I think you'd be a great fit for our company.",
+          "visual_cue": "Wide shot of the room, with Alex smiling and the interviewer extending a hand for a handshake"
+        },
+        {
+          "speaker": "Alex",
+          "line": "Thank you, sir. I'm honored to have the opportunity to work with your team.",
+          "visual_cue": "Point-of-view shot from Alex's perspective, looking at the interviewer with gratitude and a sense of accomplishment"
+        }
+      ]
+    }
+  ]
+}

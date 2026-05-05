@@ -1,0 +1,100 @@
+{
+  "task_graph": {
+    "total_scenes": 4,
+    "execution_mode": "parallel",
+    "parallel_tasks": [
+      {
+        "scene_id": 1,
+        "audio_task": "voice_synth_scene_1",
+        "video_task": "video_gen_scene_1",
+        "face_task": "face_swap_scene_1",
+        "fusion_task": "lip_sync_scene_1",
+        "dependencies": {
+          "lip_sync": [
+            "voice_synth_scene_1",
+            "face_swap_scene_1"
+          ]
+        }
+      },
+      {
+        "scene_id": 2,
+        "audio_task": "voice_synth_scene_2",
+        "video_task": "video_gen_scene_2",
+        "face_task": "face_swap_scene_2",
+        "fusion_task": "lip_sync_scene_2",
+        "dependencies": {
+          "lip_sync": [
+            "voice_synth_scene_2",
+            "face_swap_scene_2"
+          ]
+        }
+      },
+      {
+        "scene_id": 3,
+        "audio_task": "voice_synth_scene_3",
+        "video_task": "video_gen_scene_3",
+        "face_task": "face_swap_scene_3",
+        "fusion_task": "lip_sync_scene_3",
+        "dependencies": {
+          "lip_sync": [
+            "voice_synth_scene_3",
+            "face_swap_scene_3"
+          ]
+        }
+      },
+      {
+        "scene_id": 4,
+        "audio_task": "voice_synth_scene_4",
+        "video_task": "video_gen_scene_4",
+        "face_task": "face_swap_scene_4",
+        "fusion_task": "lip_sync_scene_4",
+        "dependencies": {
+          "lip_sync": [
+            "voice_synth_scene_4",
+            "face_swap_scene_4"
+          ]
+        }
+      }
+    ]
+  },
+  "voice_synth_scene_1": "completed",
+  "audio_path_scene_1": "audio/scene_1_combined.wav",
+  "voice_synth_scene_2": "completed",
+  "video_gen_scene_3": "completed",
+  "line_manifest_scene_1": "[{\"line_index\": 0, \"speaker\": \"Alex\", \"audio_path\": \"audio/scene_1_Alex_0.wav\", \"gender\": \"male\", \"emotion\": \"neutral\"}, {\"line_index\": 1, \"speaker\": \"Ryan\", \"audio_path\": \"audio/scene_1_Ryan_1.wav\", \"gender\": \"male\", \"emotion\": \"neutral\"}, {\"line_index\": 2, \"speaker\": \"Alex\", \"audio_path\": \"audio/scene_1_Alex_2.wav\", \"gender\": \"male\", \"emotion\": \"neutral\"}, {\"line_index\": 3, \"speaker\": \"Ryan\", \"audio_path\": \"audio/scene_1_Ryan_3.wav\", \"gender\": \"male\", \"emotion\": \"neutral\"}]",
+  "audio_path_scene_2": "audio/scene_2_combined.wav",
+  "frames_dir_scene_3": "frames/scene_3",
+  "line_manifest_scene_2": "[{\"line_index\": 0, \"speaker\": \"Professor\", \"audio_path\": \"audio/scene_2_Professor_0.wav\", \"gender\": \"male\", \"emotion\": \"neutral\"}, {\"line_index\": 1, \"speaker\": \"Ryan\", \"audio_path\": \"audio/scene_2_Ryan_1.wav\", \"gender\": \"male\", \"emotion\": \"neutral\"}, {\"line_index\": 2, \"speaker\": \"Alex\", \"audio_path\": \"audio/scene_2_Alex_2.wav\", \"gender\": \"male\", \"emotion\": \"neutral\"}, {\"line_index\": 3, \"speaker\": \"Ryan\", \"audio_path\": \"audio/scene_2_Ryan_3.wav\", \"gender\": \"male\", \"emotion\": \"neutral\"}]",
+  "scene_duration_3": 12,
+  "voice_synth_scene_3": "completed",
+  "audio_path_scene_3": "audio/scene_3_combined.wav",
+  "line_manifest_scene_3": "[{\"line_index\": 0, \"speaker\": \"Interviewer\", \"audio_path\": \"audio/scene_3_Interviewer_0.wav\", \"gender\": \"male\", \"emotion\": \"neutral\"}, {\"line_index\": 1, \"speaker\": \"Ryan\", \"audio_path\": \"audio/scene_3_Ryan_1.wav\", \"gender\": \"male\", \"emotion\": \"neutral\"}, {\"line_index\": 2, \"speaker\": \"Interviewer\", \"audio_path\": \"audio/scene_3_Interviewer_2.wav\", \"gender\": \"male\", \"emotion\": \"sad\"}, {\"line_index\": 3, \"speaker\": \"Ryan\", \"audio_path\": \"audio/scene_3_Ryan_3.wav\", \"gender\": \"male\", \"emotion\": \"neutral\"}]",
+  "video_gen_scene_1": "completed",
+  "frames_dir_scene_1": "frames/scene_1",
+  "scene_duration_1": 12,
+  "video_gen_scene_2": "completed",
+  "frames_dir_scene_2": "frames/scene_2",
+  "scene_duration_2": 12,
+  "voice_synth_scene_4": "completed",
+  "video_gen_scene_4": "completed",
+  "audio_path_scene_4": "audio/scene_4_combined.wav",
+  "frames_dir_scene_4": "frames/scene_4",
+  "line_manifest_scene_4": "[{\"line_index\": 0, \"speaker\": \"Interviewer\", \"audio_path\": \"audio/scene_4_Interviewer_0.wav\", \"gender\": \"male\", \"emotion\": \"neutral\"}, {\"line_index\": 1, \"speaker\": \"Alex\", \"audio_path\": \"audio/scene_4_Alex_1.wav\", \"gender\": \"male\", \"emotion\": \"neutral\"}, {\"line_index\": 2, \"speaker\": \"Interviewer\", \"audio_path\": \"audio/scene_4_Interviewer_2.wav\", \"gender\": \"male\", \"emotion\": \"neutral\"}, {\"line_index\": 3, \"speaker\": \"Alex\", \"audio_path\": \"audio/scene_4_Alex_3.wav\", \"gender\": \"male\", \"emotion\": \"neutral\"}]",
+  "scene_duration_4": 12,
+  "face_swap_scene_4": "completed",
+  "swapped_dir_scene_4": "frames/scene_4_swapped",
+  "face_swap_scene_2": "completed",
+  "swapped_dir_scene_2": "frames/scene_2_swapped",
+  "face_swap_scene_1": "completed",
+  "swapped_dir_scene_1": "frames/scene_1_swapped",
+  "face_swap_scene_3": "completed",
+  "swapped_dir_scene_3": "frames/scene_3_swapped",
+  "lip_sync_scene_1": "completed",
+  "final_mp4_scene_1": "raw_scenes/scene_01.mp4",
+  "lip_sync_scene_2": "completed",
+  "final_mp4_scene_2": "raw_scenes/scene_02.mp4",
+  "lip_sync_scene_3": "completed",
+  "final_mp4_scene_3": "raw_scenes/scene_03.mp4",
+  "lip_sync_scene_4": "completed",
+  "final_mp4_scene_4": "raw_scenes/scene_04.mp4"
+}
